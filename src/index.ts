@@ -1,6 +1,7 @@
-import getStringWidth from "string-width";
+import { width as getStringWidth } from "visualwidth";
+//import getStringWidth from "string-width";
 import { StringDecoder } from "string_decoder";
-const { default:{EventEmitter2} } =await import("eventemitter2");
+import { EventEmitter2 } from "eventemitter2";
 
 import {
   charLengthAt,
