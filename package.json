@@ -3,11 +3,12 @@
   "version": "0.0.3",
   "description": "",
   "typings": "lib/index.d.ts",
+  "type":"module",
   "main": "lib/index.js",
   "scripts": {
     "prepare": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "make":"tsc -p ."
+    "make": "tsc -p ."
   },
   "keywords": [],
   "author": "",

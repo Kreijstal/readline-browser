@@ -1,6 +1,6 @@
 import getStringWidth from "string-width";
 import { StringDecoder } from "string_decoder";
-import { EventEmitter2 } from "eventemitter2";
+const { default:{EventEmitter2} } =await import("eventemitter2");
 
 import {
   charLengthAt,
@@ -12,7 +12,7 @@ import {
   clearScreenDown,
   cursorTo,
   moveCursor
-}  from './utils';
+}  from './utils.js';
 
 const kHistorySize = 30;
 const kMincrlfDelay = 100;
