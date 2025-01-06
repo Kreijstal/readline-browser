@@ -1,6 +1,6 @@
 {
   "name": "@kreijstal/readline-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "forked from readline",
   "repository": "kreijstal/readline-browser",
   "typings": "lib/index.d.ts",
